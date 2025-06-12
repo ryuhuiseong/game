@@ -1,8 +1,8 @@
-public class Two implements Player {
+public class A implements Player {
     final boolean[] opponentHistory;
     int recordIndex = 0;
 
-    public Two(int maxRounds) {
+    public A(int maxRounds) {
         this.opponentHistory = new boolean[10];
     }
 
